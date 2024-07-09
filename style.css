@@ -96,6 +96,7 @@ font-family: Lato;
 font-size: 18px;
 font-weight: 400;
 margin-top: 20px;
+
 }
 
 .featured-images{
@@ -103,6 +104,7 @@ margin-top: 20px;
     gap: 60px ;
     width: 99%;
     margin: 0 auto;
+    
   
 
 }
@@ -115,6 +117,7 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 align-items: center;
+
 border-radius: 300px 300px 0px 0px;
 
 background: rgba(167, 33, 98, 0.15);
@@ -147,3 +150,66 @@ background: rgba(5, 151, 160, 0.15);
 background: rgba(71, 125, 17, 0.15);
 
 }
+
+
+/* three image start here */
+
+.three-image-container{
+    width: 1440px;
+height: 320px;
+border-radius: 8px;
+
+background: rgba(39, 39, 39, 0.05);
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+}
+
+.one-img{
+    width: 372px;
+height: 147px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.two-img{
+    width: 316px;
+height: 147px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.three-img{
+    width: 202px;
+height: 147px;
+display: flex;
+justify-content: center;
+align-items: center;
+ 
+}
+.title-image-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
